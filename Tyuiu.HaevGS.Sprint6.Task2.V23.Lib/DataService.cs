@@ -20,7 +20,7 @@ namespace Tyuiu.HaevGS.Sprint6.Task2.V23.Lib
                 }
                 else
                 {
-                    y = (4 - 2 * x + ((2 + Math.Cos(x) / (2 * x - 2)));
+                    y = (4 - 2 * x + (2 + Math.Cos(x) / (2 * x - 2)));
                 }
                 valueArray[count] = y;
                 count++;
