@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A000F167-05E5-482B-A574-4549C5E9E364}</ProjectGuid>
+    <ProjectGuid>{FC07D4C4-C1E5-4317-8619-3E87F680A741}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tyuiu.HaevGS.Sprint6.Task0.V2</RootNamespace>
-    <AssemblyName>Tyuiu.HaevGS.Sprint6.Task0.V2</AssemblyName>
+    <RootNamespace>Tyuiu.HaevGS.Sprint6.Task1.V13</RootNamespace>
+    <AssemblyName>Tyuiu.HaevGS.Sprint6.Task1.V13</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.HaevGS.Sprint6.Task0.V2.Lib\Tyuiu.HaevGS.Sprint6.Task0.V2.Lib.csproj">
-      <Project>{c4230dd0-dee7-4b98-a6b8-9ff8a54aab8e}</Project>
-      <Name>Tyuiu.HaevGS.Sprint6.Task0.V2.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.HaevGS.Sprint6.Task1.V13.Lib\Tyuiu.HaevGS.Sprint6.Task1.V13.Lib.csproj">
+      <Project>{637468dd-e8ac-4c5e-8b80-77339bab2135}</Project>
+      <Name>Tyuiu.HaevGS.Sprint6.Task1.V13.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

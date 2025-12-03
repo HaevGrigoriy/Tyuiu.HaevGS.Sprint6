@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.HaevGS.Sprint6.Task0.V2
+﻿namespace Tyuiu.HaevGS.Sprint6.Task1.V13
 {
     partial class Form1
     {
@@ -32,12 +32,8 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 396);
+            this.ClientSize = new System.Drawing.Size(554, 404);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
