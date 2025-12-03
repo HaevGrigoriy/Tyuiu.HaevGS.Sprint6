@@ -14,7 +14,7 @@ namespace Tyuiu.HaevGS.Sprint6.Task1.V13.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 1 || (2 * x - 2) == 0)
+                if (x == 0 || (4 * x - 0.5) == 0)
                 {
                     y = 0;
                 }
