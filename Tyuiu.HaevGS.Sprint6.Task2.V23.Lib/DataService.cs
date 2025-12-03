@@ -14,7 +14,7 @@ namespace Tyuiu.HaevGS.Sprint6.Task2.V23.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if ((Math.Abs(2 * x - 1) < 1e-10))
+                if (Math.Abs(2 * x - 2) < 1e-10)
                 {
                     y = 0;
                 }
