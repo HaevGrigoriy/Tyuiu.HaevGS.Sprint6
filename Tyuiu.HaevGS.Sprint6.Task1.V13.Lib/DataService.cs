@@ -20,7 +20,7 @@ namespace Tyuiu.HaevGS.Sprint6.Task1.V13.Lib
                 }
                 else
                 {
-                    y = Math.Round(((3 * Math.Cos(x)) / (4 * x - 0.5)) + Math.Sin(x) - 5 * x - 2, 3); 
+                    y = Math.Round(((3 * Math.Cos(x)) / (4 * x - 0.5)) + Math.Sin(x) - 5 * x - 2, 2); 
                 }
                 valueArray[count] = y;
                 count++;
