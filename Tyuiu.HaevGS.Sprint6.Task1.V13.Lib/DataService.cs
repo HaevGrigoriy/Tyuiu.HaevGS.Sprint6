@@ -16,7 +16,7 @@ namespace Tyuiu.HaevGS.Sprint6.Task1.V13.Lib
             {
                 if (x == 1 || (4 * x - 0.5) == 0)
                 {
-                    
+                    y = 0;
                 }
                 else
                 {
