@@ -6,32 +6,21 @@ namespace Tyuiu.HaevGS.Sprint6.Task4.V15.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] valueArray;
-            int len = (stopValue - startValue) + 1;
-            valueArray = new double[len];
-            double y;
+            int step = (stopValue - startValue) + 1;
+            double[] res = new double[step];
             int count = 0;
-
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x + 2 == 0)
-                {
-                    y = 0;
-                }
-                else
-                {
-                    y = Math.Round(Math.Sin(x) + 2.0 * x / 3.0 - Math.Cos(x) * 4.0 * x);
-                }
+                res[count] = Math.Sin(x) + 2.0 * x / 3.0 - Math.Cos(x) * 4.0 * x;
+                res[count] = Math.Round(res[count], 2);
 
-                if (double.IsNaN(y) || double.IsInfinity(y))
+                if (double.IsNaN(res[count]))
                 {
-                    y = 0;
+                    res[count] = 0;
                 }
-
-                valueArray[count] = y;
                 count++;
             }
-            return valueArray;
+            return res;
         }
     }
 }
