@@ -24,3 +24,6 @@ namespace Tyuiu.HaevGS.Sprint6.Task6.V29.Lib
             }
             res = res.Trim();
             return res;
+        }
+    }
+}
